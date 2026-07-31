@@ -1,6 +1,6 @@
 <div align="center">
 
-### **如果一个人不知道自己要驶向哪个港口，任何风都不会顺风。**
+### **你的 OKR，我来帮你写。**
 
 *If one does not know to which port one is sailing, no wind is favorable.*
 
