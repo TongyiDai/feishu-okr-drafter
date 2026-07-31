@@ -2,9 +2,8 @@
 
 ### **你的 OKR，我来帮你写。**
 
-*If one does not know to which port one is sailing, no wind is favorable.*
+*Your OKR is my duty.*
 
-— Seneca, *Letter 71*
 
 <br>
 
