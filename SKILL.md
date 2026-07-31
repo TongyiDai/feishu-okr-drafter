@@ -3,7 +3,7 @@ name: feishu-okr-drafter
 description: "基于当前与历史飞书 OKR、上级目标、同事目标、绩效总结、自评和工作材料，生成、改写、审阅、写入并艾特协作者的 Objective / Key Result。用户要求写 OKR、制定目标、拆解 KR、承接上级目标、检查对齐关系、优化 OKR 表述，或将草稿保存到飞书时使用。"
 ---
 
-# 飞书 OKR 草稿助手
+# 飞书 OKR 草稿
 
 ## 目标与边界
 
