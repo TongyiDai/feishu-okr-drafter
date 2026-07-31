@@ -1,0 +1,39 @@
+{
+  "canvas": {
+    "width": 1200,
+    "height": 675,
+    "ratio": "16:9",
+    "background": "#FFFFFF",
+    "grid": 8
+  },
+  "intent": {
+    "core_message": "先读全历史、关系和上级目标，再写入飞书并核验",
+    "composition": "input-process-output",
+    "focus_node": "draft"
+  },
+  "style": {
+    "theme": "geometry-minimal",
+    "accent_color": "#2F6BFF",
+    "line_weight": 1,
+    "corner_radius": 0
+  },
+  "nodes": [
+    {"id": "history", "type": "frame", "label": "上周期完成", "importance": 4},
+    {"id": "inbound", "type": "frame", "label": "本周期被 @", "importance": 4},
+    {"id": "outbound", "type": "frame", "label": "上周期 @ 他人", "importance": 4},
+    {"id": "manager", "type": "frame", "label": "直属上级 O/KR", "importance": 5},
+    {"id": "draft", "type": "rect", "label": "飞书 OKR 草稿", "importance": 5},
+    {"id": "align", "type": "circle", "label": "承接与协作", "importance": 4},
+    {"id": "write", "type": "circle", "label": "写入并 @", "importance": 5},
+    {"id": "verify", "type": "circle", "label": "保存未发布", "importance": 5}
+  ],
+  "edges": [
+    {"from": "history", "to": "draft", "relation": "基线"},
+    {"from": "inbound", "to": "draft", "relation": "协作输入"},
+    {"from": "outbound", "to": "draft", "relation": "依赖回溯"},
+    {"from": "manager", "to": "draft", "relation": "纵向承接"},
+    {"from": "draft", "to": "align", "relation": "对齐"},
+    {"from": "draft", "to": "write", "relation": "写入"},
+    {"from": "draft", "to": "verify", "relation": "读回"}
+  ]
+}

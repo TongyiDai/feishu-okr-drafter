@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">飞书 OKR 草稿工作流</title>
+  <desc id="desc">上周期完成情况、本周期被艾特、上周期艾特他人和直属上级 OKR 汇聚成飞书 OKR 草稿，再分流到承接协作、写入艾特和保存未发布核验。</desc>
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif" fill="#111111">
+    <text x="96" y="84" font-size="28" font-weight="700">飞书 OKR 草稿</text>
+    <text x="96" y="116" font-size="16" fill="#666666">先读全历史、关系和上级目标，再写入并核验</text>
+    <line x1="96" y1="144" x2="1104" y2="144" stroke="#E8E8E8" stroke-width="1"/>
+
+    <g fill="#F5F5F5" stroke="#999999" stroke-width="1">
+      <rect x="96" y="190" width="182" height="58"/>
+      <rect x="96" y="286" width="182" height="58"/>
+      <rect x="96" y="382" width="182" height="58"/>
+      <rect x="96" y="478" width="182" height="58"/>
+    </g>
+    <g font-size="16" text-anchor="middle">
+      <text x="187" y="226">上周期完成</text>
+      <text x="187" y="322">本周期被 @</text>
+      <text x="187" y="418">上周期 @ 他人</text>
+      <text x="187" y="514">直属上级 O/KR</text>
+    </g>
+
+    <g stroke="#B8B8B8" stroke-width="1.5" fill="none">
+      <path d="M278 219 C350 219 360 287 430 287"/>
+      <path d="M278 315 C350 315 360 315 430 315"/>
+      <path d="M278 411 C350 411 360 343 430 343"/>
+      <path d="M278 507 C350 507 360 371 430 371"/>
+    </g>
+
+    <rect x="430" y="252" width="276" height="114" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
+    <line x1="430" y1="252" x2="706" y2="252" stroke="#2F6BFF" stroke-width="8"/>
+    <text x="568" y="303" text-anchor="middle" font-size="23" font-weight="700">飞书 OKR 草稿</text>
+    <text x="568" y="334" text-anchor="middle" font-size="14" fill="#666666">O / KR · 主责 · 协作 · 证据</text>
+
+    <g stroke="#2F6BFF" stroke-width="1.5" fill="none">
+      <path d="M706 286 C775 286 790 220 850 220"/>
+      <path d="M706 309 C775 309 790 315 850 315"/>
+      <path d="M706 334 C775 334 790 410 850 410"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2">
+      <circle cx="930" cy="220" r="58"/>
+      <circle cx="930" cy="315" r="58"/>
+      <circle cx="930" cy="410" r="58"/>
+    </g>
+    <g font-size="16" text-anchor="middle" font-weight="600">
+      <text x="930" y="226">承接与协作</text>
+      <text x="930" y="321">写入并 @</text>
+      <text x="930" y="416">保存未发布</text>
+    </g>
+
+    <g fill="#2F6BFF">
+      <circle cx="96" cy="604" r="4"/>
+      <circle cx="1104" cy="604" r="4"/>
+    </g>
+    <line x1="112" y1="604" x2="1088" y2="604" stroke="#E8E8E8" stroke-width="1"/>
+    <text x="600" y="611" text-anchor="middle" font-size="13" fill="#666666">接口优先｜页面回退｜保存与发布分开确认</text>
+  </g>
+</svg>
