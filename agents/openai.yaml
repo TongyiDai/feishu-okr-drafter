@@ -1,0 +1,6 @@
+interface:
+  display_name: "飞书 OKR 草稿助手"
+  short_description: "基于上下文生成并检查飞书 OKR 草稿"
+    default_prompt: "使用 $feishu-okr-drafter 基于我的工作背景、历史 OKR、直属上级目标和协作关系起草一版可对齐的飞书 OKR；经我确认后写入飞书并艾特对应协作者。"
+policy:
+  allow_implicit_invocation: true
