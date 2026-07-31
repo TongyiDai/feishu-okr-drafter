@@ -22,8 +22,8 @@
     {"id": "inbound", "type": "frame", "label": "本周期被 @", "importance": 4},
     {"id": "outbound", "type": "frame", "label": "上周期 @ 他人", "importance": 4},
     {"id": "manager", "type": "frame", "label": "直属上级 O/KR", "importance": 5},
-    {"id": "draft", "type": "rect", "label": "飞书 OKR 草稿", "importance": 5},
-    {"id": "align", "type": "circle", "label": "承接与协作", "importance": 4},
+    {"id": "draft", "type": "rect", "label": "高质量 OKR 草稿", "importance": 5},
+    {"id": "align", "type": "circle", "label": "严格评审", "importance": 5},
     {"id": "write", "type": "circle", "label": "写入并 @", "importance": 5},
     {"id": "verify", "type": "circle", "label": "保存未发布", "importance": 5}
   ],

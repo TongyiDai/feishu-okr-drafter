@@ -29,8 +29,8 @@
 
     <rect x="430" y="252" width="276" height="114" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
     <line x1="430" y1="252" x2="706" y2="252" stroke="#2F6BFF" stroke-width="8"/>
-    <text x="568" y="303" text-anchor="middle" font-size="23" font-weight="700">飞书 OKR 草稿</text>
-    <text x="568" y="334" text-anchor="middle" font-size="14" fill="#666666">O / KR · 主责 · 协作 · 证据</text>
+    <text x="568" y="303" text-anchor="middle" font-size="23" font-weight="700">高质量 OKR 草稿</text>
+    <text x="568" y="334" text-anchor="middle" font-size="14" fill="#666666">结果 · 指标 · 承接 · 协作</text>
 
     <g stroke="#2F6BFF" stroke-width="1.5" fill="none">
       <path d="M706 286 C775 286 790 220 850 220"/>
@@ -43,7 +43,7 @@
       <circle cx="930" cy="410" r="58"/>
     </g>
     <g font-size="16" text-anchor="middle" font-weight="600">
-      <text x="930" y="226">承接与协作</text>
+      <text x="930" y="226">严格评审</text>
       <text x="930" y="321">写入并 @</text>
       <text x="930" y="416">保存未发布</text>
     </g>
