@@ -1,3 +1,5 @@
+> “The essence of strategy is choosing what not to do.” — Michael E. Porter
+
 <div align="center">
 
 ### **你的 OKR，我来帮你写。**
@@ -18,6 +20,23 @@
 飞书 OKR 草稿是一个面向 Agent 的 OKR 工作能力：读取当前目标、历史完成情况、上下级承接和真实协作关系，写出高质量的 Objective / Key Result 草稿；经用户确认后，直接写入飞书 OKR、艾特对应协作者，并回读保存与发布状态。
 
 英文标识：`feishu-okr-drafter`　｜　中文名：**飞书 OKR 草稿**
+
+## Agent 使用契约（运行前必读）
+
+`SKILL.md` 是执行入口，`references/` 提供写作、对齐和飞书操作规则。Agent 每次触发都先确认周期、目标归属、输出用途和当前用户身份，再选择接口、页面或用户材料路径。
+
+| 项目 | 规则 |
+| --- | --- |
+| 触发 | 写 OKR、拆 KR、检查目标质量、承接上级目标、核对协作关系、保存飞书草稿 |
+| 首步 | 运行 `lark-cli auth status --json --verify`，确认用户身份、租户和目标周期 |
+| 输入 | 当前周期、历史 OKR、工作事实、基线/目标值、直属上级目标、协作关系和输出用途 |
+| 输出 | OKR 草稿、历史承接、关系清单、质量诊断、待确认项；每个判断附来源或缺口 |
+| 读写 | 默认只读和起草；只有用户明确要求保存时写入，发布始终保持关闭 |
+| 身份边界 | 个人飞书与公司飞书隔离；姓名或邮箱先解析成真实 `open_id`，多候选时暂停 |
+| 降级 | API、页面或权限不可用时保留已取得证据，标注未覆盖范围，不用推测补齐 |
+| 验证 | 写入后回读 O/KR 数量、正文、顺序、日期、mention、保存与发布状态 |
+
+没有回读证据，Agent 只能报告“已生成”或“待核验”，不能报告“已保存”“已艾特”或“已发布”。
 
 ## About｜它到底是什么
 
@@ -48,6 +67,10 @@
 7. **评审**：陌生协作者能否看懂、判断、追问，并在周期结束时验证完成程度？
 
 回答不完整时保留 `[待确认]`，把缺口摆到桌面上。漂亮的句子不能替代缺失的事实。
+
+<p align="center">
+  <img src="assets/okr-evidence-gate.svg" alt="OKR 事实、关系和目标值经过证据门禁后进入草稿" width="900" />
+</p>
 
 ## 严格的 OKR 质量门槛
 
@@ -129,6 +152,10 @@
 
 结果分开报告：`已生成`、`已保存`、`已艾特`、`未艾特及原因`、`未发布`。其中任何一项没有读回证据，都保留为待核验。
 
+<p align="center">
+  <img src="assets/okr-writeback-verify.svg" alt="OKR 草稿经用户确认后写入飞书，再回读保存和发布状态" width="900" />
+</p>
+
 ## Agent 调用方式
 
 ### 触发示例
@@ -174,12 +201,17 @@ feishu-okr-drafter/
 ├── README.md
 ├── agents/openai.yaml
 ├── assets/
+│   ├── okr-evidence-gate.svg
+│   ├── okr-writeback-verify.svg
 │   ├── okr-workflow.scene.json
 │   └── okr-workflow.svg
-└── references/
+├── references/
     ├── feishu-okr-operations.md
     ├── okr-alignment-review.md
-    └── okr-writing-principles.md
+    ├── okr-writing-principles.md
+    └── runtime.md
+└── scripts/
+    └── doctor.sh
 ```
 
 ## 重要边界
