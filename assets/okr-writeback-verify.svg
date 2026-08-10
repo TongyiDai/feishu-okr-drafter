@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="96" y="102" fill="#111111" font-family="Arial, sans-serif" font-size="34" font-weight="700">写入、保存、发布，分成三种状态</text>
+  <text x="96" y="140" fill="#666666" font-family="Arial, sans-serif" font-size="18">用户确认只打开草稿写入，发布保持关闭</text>
+  <line x1="150" y1="340" x2="1050" y2="340" stroke="#222222" stroke-width="2"/>
+  <circle cx="190" cy="340" r="34" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="2"/>
+  <circle cx="490" cy="340" r="34" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="3"/>
+  <circle cx="790" cy="340" r="34" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="2"/>
+  <circle cx="1010" cy="340" r="34" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <line x1="224" y1="340" x2="456" y2="340" stroke="#2F6BFF" stroke-width="3"/>
+  <line x1="524" y1="340" x2="756" y2="340" stroke="#2F6BFF" stroke-width="3"/>
+  <line x1="824" y1="340" x2="976" y2="340" stroke="#B8B8B8" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="142" y="428" fill="#111111" font-family="Arial, sans-serif" font-size="22" font-weight="700">草稿</text>
+  <text x="425" y="428" fill="#111111" font-family="Arial, sans-serif" font-size="22" font-weight="700">用户确认</text>
+  <text x="735" y="428" fill="#111111" font-family="Arial, sans-serif" font-size="22" font-weight="700">已保存</text>
+  <text x="973" y="428" fill="#111111" font-family="Arial, sans-serif" font-size="22" font-weight="700">回读</text>
+  <text x="116" y="492" fill="#666666" font-family="Arial, sans-serif" font-size="17">只读起草</text>
+  <text x="398" y="492" fill="#666666" font-family="Arial, sans-serif" font-size="17">授权写入</text>
+  <text x="700" y="492" fill="#666666" font-family="Arial, sans-serif" font-size="17">保留发布按钮</text>
+  <text x="936" y="492" fill="#666666" font-family="Arial, sans-serif" font-size="17">核对真实状态</text>
+  <text x="96" y="578" fill="#999999" font-family="Arial, sans-serif" font-size="16">没有回读证据，只能报告待核验</text>
+</svg>
