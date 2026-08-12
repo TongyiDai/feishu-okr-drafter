@@ -38,6 +38,8 @@ lark-cli auth status --json --verify
 lark-cli contact +get-user --as user
 ```
 
+支持 `auth status --json --verify` 的环境必须确认 `identity=user`、`verified=true`。当前 CLI 构建若没有 `auth` 子命令，可退回 `contact +get-user --as user` 解析当前用户；需要继续草稿模式时，再用 `task +get-my-tasks --as user` 证明 user-context 可读。真正写入 OKR 或 @ 协作者前，仍要确认目标用户和租户。
+
 按以下顺序选择可用资料路径，不能把“接口不可用”当作任务终点：
 
 1. **接口/CLI 路径**：权限允许时，用接口批量读取周期、O/KR、指标、进展和对齐关系。

@@ -10,7 +10,14 @@
 lark-cli auth status --json --verify
 ```
 
-身份或周期无法核验时，先停在草稿或待确认状态。
+支持 `auth status --json --verify` 的环境必须以 `identity=user`、`verified=true` 为准。当前 CLI 构建若没有 `auth` 子命令，可退回：
+
+```bash
+lark-cli contact +get-user --as user --json
+lark-cli task +get-my-tasks --as user --json
+```
+
+`contact +get-user` 可解析当前用户；`task` 只能证明 user-context 可读。进入兼容模式后可以继续草稿与只读分析，但真正写入 OKR 或 @ 协作者前，仍要确认目标用户和租户。
 
 ## 输入与输出
 
