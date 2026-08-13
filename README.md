@@ -242,4 +242,4 @@ After user confirmation, it writes the draft through the Feishu OKR API or the p
 
 ## 许可
 
-当前仓库未声明开源许可证，适合个人或组织内部使用。若要公开分发，请先补充许可证和脱敏示例。
+本项目以 MIT 许可开源，详见 [LICENSE](LICENSE)。仓库内示例均为脱敏占位内容，请勿提交真实 OKR、姓名或租户信息。
