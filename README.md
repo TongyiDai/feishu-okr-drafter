@@ -1,5 +1,12 @@
 > “The essence of strategy is choosing what not to do.” — Michael E. Porter
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
+  <img src="https://img.shields.io/badge/license-MIT-3fb950" alt="License MIT">
+  <img src="https://img.shields.io/badge/python-%3E%3D3.8-3572A5" alt="Python >=3.8">
+  <img src="https://img.shields.io/badge/works%20with-Codex%20|%20Claude%20|%20Cursor%20|%20TRAE-555" alt="Works with major agents">
+</p>
+
 <div align="center">
 
 ### **你的 OKR，我来帮你写。**
