@@ -12,7 +12,7 @@
 
 ---
 
-# 飞书 OKR 草稿｜Feishu OKR Drafter
+<h1 align="center">飞书 OKR 草稿｜Feishu OKR Drafter</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
